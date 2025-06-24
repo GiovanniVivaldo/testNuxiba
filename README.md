@@ -1,4 +1,4 @@
-# EVALUACIÓN TÉCNICA NUXIBA
+﻿# EVALUACIÓN TÉCNICA NUXIBA
 
 Prueba: **DESARROLLADOR JR**
 
@@ -109,23 +109,23 @@ namespace testNuxiba.Data
     }
 }
 ```
-Dentro del archivo **appsettings.json** se debe hacer la cadena de conexion a la base de datos de la siguiente manera: 
+Dentro del archivo **appsettings.json** se debe hacer la cadena de conexión a la base de datos de la siguiente manera: 
 ```bash
 {
     "ConnectionStrings": {
    "Conexion": "Server=localhost,1433;Database=TestNuxibaDB;User Id=sa;Password=YourStrong!Passw0rd; TrustServerCertificate=True;"
  }
- //resto del codigo default...
+ //resto del Código default...
 }
 ```
-en el archivo **Program.cs** se debe registrar el context creado para que la aplicacion sepa sobre la base de datos, se debe declarar este registro antes de la instruccion **var app = builder.Build();**
+en el archivo **Program.cs** se debe registrar el context creado para que la aplicación sepa sobre la base de datos, se debe declarar este registro antes de la instrucción **var app = builder.Build();**
 ```bash
 builder.Services.AddDbContext<dbContext>(Options => Options.UseSqlServer(builder.Configuration.GetConnectionString("Conexion")));
 ```
 
-para la creacion de los enpoints se debe crear una clase controller, la cual en este caso se llamo **loginController** y aqui se guardaron cada uno de los endpoints
+para la creación de los enpoints se debe crear una clase controller, la cual en este caso se llamo **loginController** y aquí se guardaron cada uno de los endpoints
   - **GET /logins**:
-  este codigo devuelve todos los registros dentro de la tabla ccLogLogin, es una instruccion simple de **EF CORE**
+  este Código devuelve todos los registros dentro de la tabla ccLogLogin, es una instrucción simple de **EF CORE**
 ```bash
         [HttpGet]
         public async Task<ActionResult<IEnumerable<Login>>> GetLogins()
@@ -134,7 +134,7 @@ para la creacion de los enpoints se debe crear una clase controller, la cual en 
         }
 ```
   - **POST /logins**:
-Este código verifica si existe algún usuario que haya iniciado sesión (login) y aún no haya cerrado sesión (logout). Si encuentra un caso así, registra automáticamente un logout para ese usuario. En caso contrario, selecciona un usuario aleatorio de la base de datos y registra un nuevo login, igualmente si la base de datos esta vacia valida que no se puede realizar alguna opcion.
+Este código verifica si existe algún usuario que haya iniciado sesión (login) y aún no haya cerrado sesión (logout). Si encuentra un caso así, registra automáticamente un logout para ese usuario. En caso contrario, selecciona un usuario aleatorio de la base de datos y registra un nuevo login, igualmente si la base de datos esta vacia valida que no se puede realizar alguna opción.
 ```bash
 [HttpPost]
 public async Task<ActionResult<string>> ToggleLogin()
@@ -275,13 +275,13 @@ namespace testNuxiba.Models
 3. **Base de datos**:  
    Utiliza **Entity Framework Core** para crear la tabla en una base de datos SQL Server basada en este modelo. Aplica migraciones para crear la tabla en la base de datos. (10 puntos)
  
-Para realizar esta actividad se utilizo la consola de **NuGet** y se realizaron los siguientes comandos:
+Para realizar esta actividad se utilizó la consola de **NuGet** y se realizaron los siguientes comandos:
 ```bash
 Add-Migration InicialCrearLogin
 ```
 El comando anterior sirve para crear la carpeta de migrations que contiene los cambios que se aplicaran a la base de datos
 
-despues de esto se tiene que utilizar el comando
+después de esto se tiene que utilizar el comando
 ```bash
 Update-Database
 ```
@@ -313,7 +313,7 @@ Trabaja en SQL Server y realiza las siguientes consultas basadas en la tabla `cc
    - `User_id`: 92  
    - Tiempo total: 361 días, 12 horas, 51 minutos, 8 segundos
 
-Para esta consulta fueron tomados en cuenta los registros de entrada y de salida de los usuarios, para tomar la diferencia en tiempo entre la entrada y la salida, se valida que sea del mismo usuario, posteriormente que la fecha de la entrada sea menor a la de la salida, posteriormente se desacartan registros que solo tienen registrado el login y se hace un **SUM** con un **GROUP BY** para tener los tiempos de cada usario, se utiliza **SELECT TOP 1**, **ORDER BY** Y **DESC** para mostrar el usuario que mas tiempo se conecto y para el tiempo se realizaron converisones manuales apartir de los segundos que se contaron.
+Para esta consulta fueron tomados en cuenta los registros de entrada y de salida de los usuarios, para tomar la diferencia en tiempo entre la entrada y la salida, se valida que sea del mismo usuario, posteriormente que la fecha de la entrada sea menor a la de la salida, posteriormente se descartan registros que solo tienen registrado el login y se hace un **SUM** con un **GROUP BY** para tener los tiempos de cada usuario, se utiliza **SELECT TOP 1**, **ORDER BY** Y **DESC** para mostrar el usuario que más tiempo se conectó y para el tiempo se realizaron conversiones manuales a partir de los segundos que se contaron.
 ```bash
 WITH Sesiones AS (
     SELECT 
@@ -355,7 +355,7 @@ ORDER BY TotalSegundos DESC;
 
 dando como resultado
 
-el User_Id: **92** se conecto durante 	**361 días, 12 horas, 51 minutos, 08 segundos**
+el User_Id: **92** se conectó durante 	**361 días, 12 horas, 51 minutos, 08 segundos**
 2. **Consulta del usuario que menos tiempo ha estado logueado** (10 puntos):
    - Escribe una consulta similar a la anterior, pero que devuelva el usuario que ha pasado menos tiempo logueado.
 
@@ -363,16 +363,16 @@ el User_Id: **92** se conecto durante 	**361 días, 12 horas, 51 minutos, 08 seg
    - `User_id`: 90  
    - Tiempo total: 244 días, 43 minutos, 15 segundos
    - 
-para este ejercicio se utilizo el mismo que el anterior pero en el ordenamiento se utilizo **ASC**
+para este ejercicio se utilizó el mismo que el anterior, pero en el ordenamiento se utilizó **ASC**
 dando como resultado:
-el usuario **90** se conecto unicamente **244 días, 00 horas, 43 minutos, 15 segundos**
+el usuario **90** se conectó únicamente **244 días, 00 horas, 43 minutos, 15 segundos**
 3. **Promedio de logueo por mes** (10 puntos):
    - Escribe una consulta que calcule el tiempo promedio de logueo por usuario en cada mes.
 
    Ejemplo de respuesta:  
    - Usuario 70 en enero 2023: 3 días, 14 horas, 1 minuto, 16 segundos
 
-para este ejercicio se tomo como base los dos anteriores pero aqui en vez de hacer un SUM se realizo la funcion **AVG** para realizar el promedio quedando la siguiente consulta:
+para este ejercicio se tomó como base los dos anteriores, pero aquí en vez de hacer un SUM se realizó la función **AVG** para realizar el promedio quedando la siguiente consulta:
 ```bash
 WITH Sesiones AS (
     SELECT 
@@ -433,7 +433,7 @@ ORDER BY User_id, Mes;
    - El CSV debe ser descargable a través del endpoint de la API.
    - Asegúrate de probar este endpoint utilizando herramientas como **Postman** o **curl** y documenta los pasos en el archivo README.md.
 
-Para la realizacion del endpoint se tomaron como base los models de las otras dos tablas de la base de datos, posteriormente se realizaron consultas similares a las de SQL pero con **EF** y con estas consultas se genera un **CSV** en la memoria de la aplicacion para despues poder descargarlo.
+Para la realización del endpoint se tomaron como base los models de las otras dos tablas de la base de datos, posteriormente se realizaron consultas similares a las de SQL pero con **EF** y con estas consultas se genera un **CSV** en la memoria de la aplicación para después poder descargarlo.
 ```bash
 [HttpGet("csv")]
 public async Task<IActionResult> GetCsvReport()
@@ -508,7 +508,7 @@ public async Task<IActionResult> GetCsvReport()
 1. Sube tu código a un repositorio en GitHub o Bitbucket y proporciona el enlace para revisión.
 2. El repositorio debe contener las instrucciones necesarias en el archivo **README.md** para:
    - Levantar el contenedor de SQL Server.
-para levantar el contenedor de SQL Server se realiza la instalacion con el comando:
+para levantar el contenedor de SQL Server se realiza la instalación con el comando:
 ```bash
 docker run -e "ACCEPT_EULA=Y" -e "SA_PASSWORD=YourStrong!Passw0rd" -p 1433:1433 --name sqlserver -d mcr.microsoft.com/mssql/server:2019-latest
 ```
@@ -520,19 +520,19 @@ docker start sqlserver
 ```
 
    - Conectar la base de datos.
-para conectarse a la base de datos desde **SSMS** se tiene que poner lo siguiente en la pantalla de conexion:
+para conectarse a la base de datos desde **SSMS** se tiene que poner lo siguiente en la pantalla de conexión:
 ![Conexión SQL](img/ConexionSQL.png)
 
    - Ejecutar la API y sus endpoints.
-para la ejecucion de la API se hace con **SWAGGER** y **https** en el navegador se muestra la siguiente pantalla:
+para la ejecución de la API se hace con **SWAGGER** y **https** en el navegador se muestra la siguiente pantalla:
 ![default](img/PantallaPrincipal.png)
 
-posteriormente se selecciona alguna accion y se realiza lo siguiente:
+posteriormente se selecciona alguna acción y se realiza lo siguiente:
 ![paso 1](img/InstruccionGeneral1.png)
 
 ![paso 2](img/InstruccionGeneral2.png)
 
-y las respuestas de los metodos son las siguientes:
+y las respuestas de los métodos son las siguientes:
 ![get](img/RespuestaGet.png)
 
 ![post](img/RespuestaPost.png)
