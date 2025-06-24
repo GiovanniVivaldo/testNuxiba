@@ -1,0 +1,6 @@
+@testNuxiba_HostAddress = http://localhost:5115
+
+GET {{testNuxiba_HostAddress}}/weatherforecast/
+Accept: application/json
+
+###

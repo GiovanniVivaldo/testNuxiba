@@ -1,0 +1,174 @@
+{
+  "Version": 1,
+  "WorkspaceRootPath": "C:\\Users\\zazuk\\OneDrive\\Documentos\\testNuxiba\\testdevbackjr\\testNuxiba\\",
+  "Documents": [
+    {
+      "AbsoluteMoniker": "D:0:0:{FA52C2CA-D540-4BE3-B6BD-E23342DDE9E4}|testNuxiba.csproj|c:\\users\\zazuk\\onedrive\\documentos\\testnuxiba\\testdevbackjr\\testnuxiba\\controllers\\logincontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{FA52C2CA-D540-4BE3-B6BD-E23342DDE9E4}|testNuxiba.csproj|solutionrelative:controllers\\logincontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{FA52C2CA-D540-4BE3-B6BD-E23342DDE9E4}|testNuxiba.csproj|c:\\users\\zazuk\\onedrive\\documentos\\testnuxiba\\testdevbackjr\\testnuxiba\\models\\login.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{FA52C2CA-D540-4BE3-B6BD-E23342DDE9E4}|testNuxiba.csproj|solutionrelative:models\\login.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{FA52C2CA-D540-4BE3-B6BD-E23342DDE9E4}|testNuxiba.csproj|c:\\users\\zazuk\\onedrive\\documentos\\testnuxiba\\testdevbackjr\\testnuxiba\\models\\area.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{FA52C2CA-D540-4BE3-B6BD-E23342DDE9E4}|testNuxiba.csproj|solutionrelative:models\\area.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{FA52C2CA-D540-4BE3-B6BD-E23342DDE9E4}|testNuxiba.csproj|c:\\users\\zazuk\\onedrive\\documentos\\testnuxiba\\testdevbackjr\\testnuxiba\\models\\user.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{FA52C2CA-D540-4BE3-B6BD-E23342DDE9E4}|testNuxiba.csproj|solutionrelative:models\\user.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{FA52C2CA-D540-4BE3-B6BD-E23342DDE9E4}|testNuxiba.csproj|c:\\users\\zazuk\\onedrive\\documentos\\testnuxiba\\testdevbackjr\\testnuxiba\\data\\dbcontext.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{FA52C2CA-D540-4BE3-B6BD-E23342DDE9E4}|testNuxiba.csproj|solutionrelative:data\\dbcontext.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{FA52C2CA-D540-4BE3-B6BD-E23342DDE9E4}|testNuxiba.csproj|c:\\users\\zazuk\\onedrive\\documentos\\testnuxiba\\testdevbackjr\\testnuxiba\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{FA52C2CA-D540-4BE3-B6BD-E23342DDE9E4}|testNuxiba.csproj|solutionrelative:program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{FA52C2CA-D540-4BE3-B6BD-E23342DDE9E4}|testNuxiba.csproj|c:\\users\\zazuk\\onedrive\\documentos\\testnuxiba\\testdevbackjr\\testnuxiba\\appsettings.json||{90A6B3A7-C1A3-4009-A288-E2FF89E96FA0}",
+      "RelativeMoniker": "D:0:0:{FA52C2CA-D540-4BE3-B6BD-E23342DDE9E4}|testNuxiba.csproj|solutionrelative:appsettings.json||{90A6B3A7-C1A3-4009-A288-E2FF89E96FA0}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{FA52C2CA-D540-4BE3-B6BD-E23342DDE9E4}|testNuxiba.csproj|c:\\users\\zazuk\\onedrive\\documentos\\testnuxiba\\testdevbackjr\\testnuxiba\\migrations\\20250623213811_inicialcrearlogin.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{FA52C2CA-D540-4BE3-B6BD-E23342DDE9E4}|testNuxiba.csproj|solutionrelative:migrations\\20250623213811_inicialcrearlogin.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{FA52C2CA-D540-4BE3-B6BD-E23342DDE9E4}|testNuxiba.csproj|c:\\users\\zazuk\\onedrive\\documentos\\testnuxiba\\testdevbackjr\\testnuxiba\\testnuxiba.csproj||{FA3CD31E-987B-443A-9B81-186104E8DAC1}|",
+      "RelativeMoniker": "D:0:0:{FA52C2CA-D540-4BE3-B6BD-E23342DDE9E4}|testNuxiba.csproj|solutionrelative:testnuxiba.csproj||{FA3CD31E-987B-443A-9B81-186104E8DAC1}|"
+    }
+  ],
+  "DocumentGroupContainers": [
+    {
+      "Orientation": 0,
+      "VerticalTabListWidth": 256,
+      "DocumentGroups": [
+        {
+          "DockedWidth": 200,
+          "SelectedChildIndex": 1,
+          "Children": [
+            {
+              "$type": "Document",
+              "DocumentIndex": 3,
+              "Title": "User.cs",
+              "DocumentMoniker": "C:\\Users\\zazuk\\OneDrive\\Documentos\\testNuxiba\\testdevbackjr\\testNuxiba\\Models\\User.cs",
+              "RelativeDocumentMoniker": "Models\\User.cs",
+              "ToolTip": "C:\\Users\\zazuk\\OneDrive\\Documentos\\testNuxiba\\testdevbackjr\\testNuxiba\\Models\\User.cs",
+              "RelativeToolTip": "Models\\User.cs",
+              "ViewState": "AgIAABEAAAAAAAAAAAAgwBwAAAA3AAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-06-23T20:08:13.839Z",
+              "IsPinned": true,
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 0,
+              "Title": "LoginController.cs",
+              "DocumentMoniker": "C:\\Users\\zazuk\\OneDrive\\Documentos\\testNuxiba\\testdevbackjr\\testNuxiba\\Controllers\\LoginController.cs",
+              "RelativeDocumentMoniker": "Controllers\\LoginController.cs",
+              "ToolTip": "C:\\Users\\zazuk\\OneDrive\\Documentos\\testNuxiba\\testdevbackjr\\testNuxiba\\Controllers\\LoginController.cs",
+              "RelativeToolTip": "Controllers\\LoginController.cs",
+              "ViewState": "AgIAAI8AAAAAAAAAAAAswKAAAAARAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-06-23T20:20:53.867Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 2,
+              "Title": "Area.cs",
+              "DocumentMoniker": "C:\\Users\\zazuk\\OneDrive\\Documentos\\testNuxiba\\testdevbackjr\\testNuxiba\\Models\\Area.cs",
+              "RelativeDocumentMoniker": "Models\\Area.cs",
+              "ToolTip": "C:\\Users\\zazuk\\OneDrive\\Documentos\\testNuxiba\\testdevbackjr\\testNuxiba\\Models\\Area.cs",
+              "RelativeToolTip": "Models\\Area.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAsAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-06-23T20:16:16.242Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 1,
+              "Title": "Login.cs",
+              "DocumentMoniker": "C:\\Users\\zazuk\\OneDrive\\Documentos\\testNuxiba\\testdevbackjr\\testNuxiba\\Models\\Login.cs",
+              "RelativeDocumentMoniker": "Models\\Login.cs",
+              "ToolTip": "C:\\Users\\zazuk\\OneDrive\\Documentos\\testNuxiba\\testdevbackjr\\testNuxiba\\Models\\Login.cs",
+              "RelativeToolTip": "Models\\Login.cs",
+              "ViewState": "AgIAAA8AAAAAAAAAAAAYwAAAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-06-23T20:01:53.854Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 5,
+              "Title": "Program.cs",
+              "DocumentMoniker": "C:\\Users\\zazuk\\OneDrive\\Documentos\\testNuxiba\\testdevbackjr\\testNuxiba\\Program.cs",
+              "RelativeDocumentMoniker": "Program.cs",
+              "ToolTip": "C:\\Users\\zazuk\\OneDrive\\Documentos\\testNuxiba\\testdevbackjr\\testNuxiba\\Program.cs",
+              "RelativeToolTip": "Program.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAA4AAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-06-23T19:57:43.49Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 4,
+              "Title": "dbContext.cs",
+              "DocumentMoniker": "C:\\Users\\zazuk\\OneDrive\\Documentos\\testNuxiba\\testdevbackjr\\testNuxiba\\Data\\dbContext.cs",
+              "RelativeDocumentMoniker": "Data\\dbContext.cs",
+              "ToolTip": "C:\\Users\\zazuk\\OneDrive\\Documentos\\testNuxiba\\testdevbackjr\\testNuxiba\\Data\\dbContext.cs",
+              "RelativeToolTip": "Data\\dbContext.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-06-23T19:48:51.81Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 8,
+              "Title": "testNuxiba",
+              "DocumentMoniker": "C:\\Users\\zazuk\\OneDrive\\Documentos\\testNuxiba\\testdevbackjr\\testNuxiba\\testNuxiba.csproj",
+              "RelativeDocumentMoniker": "testNuxiba.csproj",
+              "ToolTip": "C:\\Users\\zazuk\\OneDrive\\Documentos\\testNuxiba\\testdevbackjr\\testNuxiba\\testNuxiba.csproj",
+              "RelativeToolTip": "testNuxiba.csproj",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000758|",
+              "WhenOpened": "2025-06-23T19:47:03.556Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 6,
+              "Title": "appsettings.json",
+              "DocumentMoniker": "C:\\Users\\zazuk\\OneDrive\\Documentos\\testNuxiba\\testdevbackjr\\testNuxiba\\appsettings.json",
+              "RelativeDocumentMoniker": "appsettings.json",
+              "ToolTip": "C:\\Users\\zazuk\\OneDrive\\Documentos\\testNuxiba\\testdevbackjr\\testNuxiba\\appsettings.json",
+              "RelativeToolTip": "appsettings.json",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAoAAAAEAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.001642|",
+              "WhenOpened": "2025-06-23T19:44:13.249Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 7,
+              "Title": "20250623213811_InicialCrearLogin.cs",
+              "DocumentMoniker": "C:\\Users\\zazuk\\OneDrive\\Documentos\\testNuxiba\\testdevbackjr\\testNuxiba\\Migrations\\20250623213811_InicialCrearLogin.cs",
+              "RelativeDocumentMoniker": "Migrations\\20250623213811_InicialCrearLogin.cs",
+              "ToolTip": "C:\\Users\\zazuk\\OneDrive\\Documentos\\testNuxiba\\testdevbackjr\\testNuxiba\\Migrations\\20250623213811_InicialCrearLogin.cs",
+              "RelativeToolTip": "Migrations\\20250623213811_InicialCrearLogin.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-06-23T21:38:12.36Z",
+              "EditorCaption": ""
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}

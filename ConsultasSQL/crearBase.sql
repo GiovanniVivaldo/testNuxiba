@@ -1,0 +1,38 @@
+CREATE DATABASE TestNuxibaDB;
+GO
+USE TestNuxibaDB;
+
+CREATE TABLE ccRIACat_Areas(
+IDArea INT IDENTITY(1,1) PRIMARY KEY,
+AreaName VARCHAR(MAX) NOT NULL,
+StatusArea INT NOT NULL,
+CreateDate DATETIME NOT NULL
+);
+GO
+
+CREATE TABLE ccUsers(
+	User_id INT IDENTITY(1,1) PRIMARY KEY,
+	Login VARCHAR(MAX) NOT NULL,
+	Nombres VARCHAR(MAX) NOT NULL,
+	ApellidoPaterno VARCHAR(MAX),
+	ApellidoMaterno VARCHAR(MAX),
+	Password VARCHAR(MAX) NOT NULL,
+	TipoUser_id INT NOT NULL,
+	Status INT NOT NULL,
+	fCreate DATETIME NOT NULL,
+	IDArea INT NOT NULL,
+	LastLoginAttempt DATETIME NOT NULL
+
+	FOREIGN KEY (IDArea) REFERENCES ccRIACat_Areas(IDArea)
+);
+GO
+
+CREATE TABLE ccLogLogin (
+	Id INT IDENTITY(1,1) PRIMARY KEY,
+	User_id INT NOT NULL,
+	Extension INT NOT NULL,
+	TipoMov INT CHECK (TipoMov IN (0,1)),
+	Fecha DATETIME NOT NULL,
+	FOREIGN KEY (User_id) REFERENCES ccUsers(User_id)
+);
+GO
