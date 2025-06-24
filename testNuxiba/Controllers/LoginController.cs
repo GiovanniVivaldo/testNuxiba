@@ -51,8 +51,9 @@ namespace testNuxiba.Controllers
             }
             else
             {
-                // No hay login activo → loguear a un usuario aleatorio
+                // No hay login activo = loguear a un usuario aleatorio
                 var user = await _context.ccUsers.OrderBy(u => Guid.NewGuid()).FirstOrDefaultAsync();
+                //validar usuarios
                 if (user == null)
                     return NotFound("No hay usuarios disponibles para loguear.");
 
@@ -80,6 +81,8 @@ namespace testNuxiba.Controllers
                 .OrderByDescending(l => l.Fecha)
                 .FirstOrDefaultAsync();
 
+
+            //validar existencia
             if (existing == null)
             {
                 return NotFound($"No se encontró un login/deslogin para el usuario con ID {id}.");
@@ -100,6 +103,8 @@ namespace testNuxiba.Controllers
         [HttpDelete("{id}")]
         public async Task<IActionResult> DeleteLogin(int id)
         {
+
+            //validar existencia
             var login = await _context.ccLogLogin.FindAsync(id);
             if (login == null)
             {
